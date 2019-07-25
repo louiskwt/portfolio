@@ -1,7 +1,13 @@
 // Widescreens
 @include largeScreen {
+  .projects-info {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 @include desktop {
+  .projects-info {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 @include tablet {
   main {
@@ -45,9 +51,15 @@
       "job3";
     grid-template-columns: 1fr;
   }
+  .projects-info {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 @include mobile {
   main#home h1 {
     margin-top: 10vh;
+  }
+  .projects-info {
+    grid-template-columns: 1fr;
   }
 }
