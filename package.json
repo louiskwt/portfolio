@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "description": "My Portfolio Website",
   "main": "index.js",
+  "homepage": "https://louiskwt.github.io/portfolio",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass -w scss/ -o dist/css/ --recursive"
+    "scss": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Ka Wing Tsang",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.12.0"
   }
 }
