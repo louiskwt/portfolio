@@ -4,6 +4,28 @@ $show-home-image: true;
 $home-image: url(../img/cover.jpg);
 $background-opacity: 0.6;
 
+//Media Query Mixins
+@mixin mobile {
+  @media screen and (max-width: 500px) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media screen and (max-width: 760px) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media screen and (min-width: 769px) and (max-width: 1170px) {
+    @content;
+  }
+}
+@mixin largeScreen {
+  @media screen and (min-width: 1171px) {
+    @content;
+  }
+}
+
 @mixin easeOut {
   transition: all 0.5s ease-out;
 }
