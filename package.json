@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "My Portfolio Website",
   "main": "index.js",
-  "homepage": "https://louiskwt.github.io/portfolio",
+  "homepage": "https://louiskwt.github.io/portfolio/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "scss": "node-sass -w scss/ -o dist/css/ --recursive",
