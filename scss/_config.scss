@@ -1,8 +1,8 @@
-$primary-color: #fff;
-$secondary-color: #eece1a;
+$primary-color: #eaedf0;
+$secondary-color: #5995da;
 $show-home-image: true;
-$home-image: url(../img/cover.jpg);
-$background-opacity: 0.6;
+$home-image: url(../img/bg.jpeg);
+$background-opacity: 0.8;
 
 //Media Query Mixins
 @mixin mobile {
